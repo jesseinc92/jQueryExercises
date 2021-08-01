@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies!</title>
+    <link rel="stylesheet" href="moviesapp.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="moviesapp.js" defer></script>
+</head>
+<body>
+    <h1>Rate a Movie</h1>
+    <form action="">
+        <input type="text" id="title" minlength="2" placeholder="Movie Title">
+        <input type="number" id="rating" min="0" max="10">
+        <button type="submit">Rate!</button>
+    </form>
+    <div id="ratings-container">
+        <!-- New ratings are appended here. -->
+    </div>
+</body>
+</html>
